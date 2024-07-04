@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.app {
+  margin-top: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.card.vivienda {
+  background-color: #ffebcc;
+}
+
+.card.transporte {
+  background-color: #cce5ff;
+}
+
+.card.deudas {
+  background-color: #e79e9e;
+}
+
+.card.otros {
+  background-color: #e6e6e6;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.card-text {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover, .btn-danger:hover {
+  opacity: 0.8;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+input.form-control, select.form-select {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  background-color: #e9ecef;
+}
+
+input::placeholder {
+  color: #6c757d;
+}
+
+select.form-select {
+  color: #495057;
+  background-color: #e9ecef;
+}
+
+.text-center {
+  color: #0878f0;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.app-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.note-header {
+  background-color: #090909;
+  color: #fff;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.note-content {
+  padding: 10px;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover, .btn-danger:hover {
+  opacity: 0.8;
+}
